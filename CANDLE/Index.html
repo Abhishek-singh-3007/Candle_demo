@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendly</title>
+    <img src="./fr.jfif" width="180px" height="70px">
+    <link rel="icon" href="./OIP(1).jfif" type="img">
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .nav{
+            position: absolute;
+            top: 25px;
+            left: 260px;
+        }
+        .log{
+            position: absolute;
+            top: 12px;
+            right: 200px;
+            border: none;
+            border-radius: 10px;
+            text-align:center ;
+            color: black;
+            cursor: pointer;
+            text-decoration: none;
+            height: 50px;
+            width: 90px;
+            background-color: white;
+            font-size: medium;
+        }
+        .log:hover{
+            background-color: rgb(194, 203, 205);
+        }
+        .get{
+            position: absolute;
+            top: 12px;
+            right: 30px;
+            border: none;
+            border-radius: 30px;
+            text-align:center ;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            height: 52px;
+            width: 150px;
+            background-color: rgb(39, 39, 170);
+            font-size: medium;
+        }
+        .get:hover{
+            background-color: blue;
+        }
+        .sale1{
+            border: none;
+            border-radius: 30px;
+            text-align:center ;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            height: 53px;
+            width: 160px;
+            background-color: rgb(39, 39, 170);
+            font-size: medium;
+
+        }
+        .sale1:hover{
+            background-color: blue;
+        }
+        .start{
+            border: none;
+            border-radius: 30px;
+            text-align:center ;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            height: 53px;
+            width: 160px;
+            background-color: rgb(39, 39, 170);
+            font-size: medium;
+        }
+        .start:hover{
+            background-color: blue;
+        }
+        .Talk{
+            border: 1px solid #fff;
+            border-radius: 30px;
+            text-align:center ;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            height: 53px;
+            width: 160px;
+            background-color: rgb(5, 5, 71);
+            font-size: medium;
+        }
+        .Talk:hover{
+            background-color: white;
+            color: black;
+        }
+        .tr1{
+            width: 30%;
+            position: absolute;
+            left: 220px;
+            text-align: left;
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-radius: 15px;
+            border: 2px solid;
+            border-color: whitesmoke;
+            padding: 4px;
+            
+        }
+        .tr1:hover{
+            box-shadow: 2px 5px rgb(216, 213, 213);
+        }
+        .tr2{
+            width: 30%;
+            position: absolute;
+            right: 220px;
+            text-align: left;
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-radius: 15px;
+            border: 2px solid;
+            border-color: whitesmoke;
+            padding: 4px;
+            
+        }
+        .tr2:hover{
+            box-shadow: 2px 5px rgb(216, 213, 213);
+        }
+        .tr3{
+            width: 30%;
+            position: absolute;
+            top: 1120px;
+            left: 220px;
+            text-align: left;
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-radius: 15px;
+            border: 2px solid;
+            border-color: whitesmoke;
+            padding: 4px;
+        }
+        .tr3:hover{
+            box-shadow: 2px 5px rgb(216, 213, 213);
+        }
+        .tr4{
+            width: 30%;
+            position: absolute;
+            top: 1120px;
+            right: 220px;
+            text-align: left;
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-radius: 15px;
+            border: 2px solid;
+            border-color: whitesmoke;
+            padding: 4px;
+        }
+        .tr4:hover{
+            box-shadow: 2px 5px rgb(216, 213, 213);
+        }
+        .tr5{
+            width: 30%;
+            position: absolute;
+            top: 1462px;
+            left: 220px;
+            text-align: left;
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-radius: 15px;
+            border: 2px solid;
+            border-color: whitesmoke;
+            padding: 4px;
+        }
+        .tr5:hover{
+            box-shadow: 2px 5px rgb(216, 213, 213);
+        }
+        .tr6{
+            width: 30%;
+            position: absolute;
+            top: 1462px;
+            right: 220px;
+            text-align: left;
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-radius: 15px;
+            border: 2px solid;
+            border-color: whitesmoke;
+            padding: 4px;
+        }
+        .tr6:hover{
+            box-shadow: 2px 5px rgb(216, 213, 213);
+        }
+        .box{
+            background-color: rgb(5, 5, 71);
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 99.2%;
+            top: 1820px;
+            
+        }
+        .llst{
+            position: absolute;
+            top: 2225px;
+            left: 80px;
+        }
+        .text{
+            position: absolute;
+            top: 2280px;
+            right: 450px;
+        }
+        .text1{
+            position: absolute;
+            top: 2275px;
+            right: 190px;
+        }
+        .text2{
+            position: absolute;
+            top: 2630px;
+            right: 400px;
+        }
+        .text3{
+            position: absolute;
+            top: 2630px;
+            right: 190px;
+        }
+        .text4{
+            position: absolute;
+            top: 2950px;
+            right: 390px;
+        }
+        .text5{
+            position: absolute;
+            top: 2950px;
+            right: 160px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="nav">
+        <center>
+    <a href="#" style="text-decoration: none; color: black;"><strong>Individuals  &emsp; &emsp;</a>
+    <a href="#" style="text-decoration: none; color: black;"><strong>Team </strong> &emsp; &emsp; </a> 
+    <a href="#" style="text-decoration: none; color: black;"><strong>Enterprise </strong> &emsp; &emsp; </a> 
+    <a href="#" style="text-decoration: none; color: black;"> <strong>Product <select style="border: none; outline: none;" disabled> </select></strong> &emsp; &emsp; </a> 
+   <a href="#" style="text-decoration: none; color: black;"><strong>Pricing </strong> &emsp; &emsp; </a> 
+    <a href="#" style="text-decoration: none; color: black;"><strong>Resources <select style="border: none; outline: none;" disabled> </select></strong> &emsp; &emsp; </a> 
+        </center>
+    </div>
+    <button class="log"> LogIn  </button> 
+    <button class="get"> Get Started </button>
+      <br>
+      <br>
+      <br>
+   <center> 
+    <p style="color: rgb(88, 88, 206);">  SOLUTIONS </p>
+    <p style="font-size: 65px; margin: 35px;">
+        <span style="color: blue;">Calendly </span>for the work you do
+    </p>
+    
+    <pre style="font-size: 20px; color:darkgray; margin: 50px">
+        Across a range of uses, Calendly helps people and
+        teams build efficiency, professionalism and results into
+        the work they do.
+    </pre>
+    <button class="sale1" style="margin: -10px;"> Contact sales </button>
+    
+    <p style="color: rgb(88, 88, 206); margin-top: 130px;">  SOLUTIONS </p>
+     <p style="font-size: 35px; font-weight: 200; letter-spacing: 2px; "> 
+        <b>Calendly can solve your specific pain points</b>
+     </p>
+    <table class="tr1">
+        <tr>
+        
+        <th><img src="./sale1.png" width="40px" alt=""><br>
+            <span style="font-size: 25px;"><strong> Sales </strong></span></th>
+        </tr>
+        <tr>
+        <td>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis quas optio nesciunt odio possimus, inventore id ipsum vitae animi similique deleniti amet. Obcaecati hic inventore laudantium reiciendis quod ea!
+            <br>
+                 <br>
+                <a href="" style="text-decoration: none; font-size: 20px; color: rgb(35, 135, 218);"> Learn More > </a>
+        </td>
+        </tr>
+    </table>
+    <table class="tr2">
+        <tr>
+
+            <th><img src="./REC.png" width="42px" alt=""><br>
+               <span style="font-size: 25px;"> <strong> Recruiting </strong></span></th>
+            </tr>
+            <tr>
+            <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis quas optio nesciunt odio possimus, inventore id ipsum vitae animi similique deleniti amet. Obcaecati hic inventore laudantium reiciendis quod ea!
+                <br>
+                 <br>
+                <a href="" style="text-decoration: none; font-size: 20px; color: rgb(35, 135, 218);"> Learn More > </a>
+            </td>
+            </tr>
+    </table>
+    <table class="tr3">
+        <tr>
+            <th><img src="./EDU.png" width="40px" alt=""><br>
+                <span style="font-size: 25px;"><strong> Education </strong></span></th>
+            </tr>
+            <tr>
+            <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis quas optio nesciunt odio possimus, inventore id ipsum vitae animi similique deleniti amet. Obcaecati hic inventore laudantium reiciendis quod ea!
+                <br>
+                 <br>
+                <a href="" style="text-decoration: none; font-size: 20px; color: rgb(35, 135, 218);"> Learn More > </a>
+            </td>
+            </tr>
+    </table>
+    <table class="tr4">
+        <tr>
+            <th><img src="./REV.png" width="36px" alt=""><br>
+                <span style="font-size: 25px;"><strong> Revenue Operations </strong></span> </th>
+            </tr>
+            <tr>
+            <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis quas optio nesciunt odio possimus, inventore id ipsum vitae animi similique deleniti amet. Obcaecati hic inventore laudantium reiciendis quod ea!
+                <br>
+                 <br>
+                <a href="" style="text-decoration: none; font-size: 20px; color: rgb(35, 135, 218);"> Learn More > </a>
+            </td>
+            </tr>
+    </table>
+    <table class="tr5">
+        <tr>
+            <th><img src="./Markt.png" width="42px" alt=""><br>
+               <span style="font-size: 25px;"><strong>  Marketing </strong></span></th>
+            </tr>
+            <tr>
+            <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis quas optio nesciunt odio possimus, inventore id ipsum vitae animi similique deleniti amet. Obcaecati hic inventore laudantium reiciendis quod ea!
+                 <br>
+                 <br>
+                <a href="" style="text-decoration: none; font-size: 20px; color: rgb(35, 135, 218);"> Learn More > </a>
+            </td>
+            </tr>
+    </table>
+    <table class="tr6">
+        <tr>
+            <th><img src="./Cust.png" width="42px" alt=""><br>
+               <span style="font-size: 25px;"><strong> Customer Success </strong></span> </th>
+            </tr>
+            <tr>
+            <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis quas optio nesciunt odio possimus, inventore id ipsum vitae animi similique deleniti amet. Obcaecati hic inventore laudantium reiciendis quod ea!
+                <br>
+                <br>
+                <a href="" style="text-decoration: none; font-size: 20px; color: rgb(35, 135, 218);"> Learn More > </a>
+            </td>
+            </tr>
+    </table>
+    </center>
+    <div class="box">
+        <p style="font-size: 60px; margin-top: 50px;">
+            Easy access for easy booking
+        </p>
+        <p style="font-size: 18px; letter-spacing: 1px; margin-top: -20px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+             accusamus laboriosam neque magni, aspernatur,.
+        </p>
+        <button class="start" style="margin-top: 25px; margin-bottom: 100px;"> Start for Free </button>&emsp;
+        <button class="Talk" style="margin-top: 25px; margin-bottom: 100px;"> Talk with Sales </button>
+    </div>
+    <div class="llst">
+        <p style="font-size: 35px;">Easy <br>
+          <span style="color: blue; letter-spacing: 1.3px;"> ahead </span></p>
+        <p style="margin-bottom: 65px; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur <br>
+        adipisicing elit. Hic dolore rem vo</p>
+        <button class="lang" style="width: 380px; height: 40px; padding: 10px; text-align: left;margin-bottom: 65px; border-radius: 5px; border: 0.5px solid rgba(89, 83, 83, 0.326); background-color: white;">English  <select disabled style="position: absolute; right: 40px; border: none; outline: none; background-color: white; margin-bottom: 65px;"></select></button> <br>
+        <a href="https://www.bing.com/ck/a?!&&p=8f132a8017f375c5JmltdHM9MTcxNjQyMjQwMCZpZ3VpZD0xNjdmNGUzZi0xZmMzLTY1MTMtMzZlNC01ZGI2MWVmZDY0MDAmaW5zaWQ9NTU4Ng&ptn=3&ver=2&hsh=3&fclid=167f4e3f-1fc3-6513-36e4-5db61efd6400&psq=google+lence+link&u=a1aHR0cHM6Ly9sZW5zLmdvb2dsZS5jb20v&ntb=1"><img src="./play.png" alt=""></a>
+        <a href="https://www.bing.com/ck/a?!&&p=8f132a8017f375c5JmltdHM9MTcxNjQyMjQwMCZpZ3VpZD0xNjdmNGUzZi0xZmMzLTY1MTMtMzZlNC01ZGI2MWVmZDY0MDAmaW5zaWQ9NTU4Ng&ptn=3&ver=2&hsh=3&fclid=167f4e3f-1fc3-6513-36e4-5db61efd6400&psq=google+lence+link&u=a1aHR0cHM6Ly9sZW5zLmdvb2dsZS5jb20v&ntb=1"><img src="./apple3.jfif" style="height: 45px; width: 150px; " alt=""></a> <br>
+        <a href=""><img src="./ss.png" style="margin-top: 50px; height: 40px; width: 285px; margin-bottom: 100px;" alt=""></a>
+    </div>
+    <div class="text">
+        <strong style="font-size: 30px;"> About  </strong><br><br>
+             <p>
+                About Calendly   <br>
+                <br>
+                Contact Sales 
+                <br><br>
+                NewsRoom      
+                <br>
+                <br>
+                Careers
+             </p>
+
+    </div>
+    <div class="text1">
+    <strong style="font-size: 30px;"> Solutions  </strong><br><br>
+             <p>
+                Customer Success <br> <br>
+                Sales   <br><br>
+                Recruiting <br> <br>
+                Information <br> <br>
+                Marketing <br><br>
+             </p>
+    </div>
+    <div class="text2">
+        <strong style="font-size: 30px;"> Popular <br>Features</strong><br> <br>
+                 <p>
+                    Embded Calendly <br> <br>
+                    Availability   <br><br>
+                    Sendig Notifications <br> <br>
+                    Using Calendly Mobile <br><br>
+                 </p>
+        </div>
+    <div class="text3">
+            <strong style="font-size: 30px;"> Support </strong><br><br>
+                     <p>
+                        Help Center <br> <br>
+                        Video Tutorials   <br><br>
+                        Cookies Settings <br> <br>
+                        
+                     </p>
+            </div>
+    <div class="text4">
+                <strong style="font-size: 30px;"> Add-Ons </strong><br><br>
+                         <p>
+                            Download From<br>Chrome <br> <br>
+                            Download From Firefox <br><br>
+                            
+                         </p>
+        </div>
+     <div class="text5">
+                    <strong style="font-size: 30px;"> Developers  </strong><br><br>
+                             <p>
+                                Developers Tools <br> <br>
+                                
+                             </p>
+                    </div>
+</body>
+</html>
